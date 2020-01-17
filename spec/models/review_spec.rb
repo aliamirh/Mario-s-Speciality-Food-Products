@@ -7,5 +7,4 @@ describe Review do
   it { should validate_presence_of :rating }
   it { should validate_presence_of :product_id }
   it { should validate_length_of(:content_body).is_at_most(250) }
-
 end
