@@ -11,7 +11,7 @@
 <p>There are no products yet.</p>
 <% end %>
 
-<p><%= link_to "Create new product", new_product_path %></p>
+<p class="link"><%= link_to "Create new product", new_product_path %></p>
 
 <h2>Recently Reviewed</h2>
 <% if @most_recent.try(:any?) %>
