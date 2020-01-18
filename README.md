@@ -1,24 +1,55 @@
-# README
+# _Mario's Products_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+#### By _**Ali Amirhamzeh**_
 
-* System dependencies
+## Description
 
-* Configuration
+_You can create a list of products, and add reviews to each of them. There are no limits to the amount of products or reviews, only the character minimum and maximum._
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+* _download/clone Mario's Products repo_
+* _Run "bundle install"_
+* _Run "rails s" to start server_
+* _follow website links to create, update, or delete Products and reviews_
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Known Bugs
 
-* Deployment instructions
+_Everything is good to go so far. CSS styling will be updated in the future_
 
-* ...
+## Support and contact details
+
+_email me at example@email.com_
+
+## Technologies Used
+
+_Ruby, Rails, HTML, CSS, Bootstrap_
+
+### License
+
+*MIT License
+
+Copyright (c) [2020] [Ali Amirhamzeh]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+
+Copyright (c) 2020 **_Ali Amirhamzeh_**
