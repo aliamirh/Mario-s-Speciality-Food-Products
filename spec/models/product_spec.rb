@@ -18,7 +18,7 @@ describe (Product) do
     product = Product.create({name: "apples", cost: 1, country_of_origin: "America"})
     product.save
     product.update({name: "grapes"})
-    expect(product.name).to(eq("grapes"))
+    expect(product.name).to(eq("Grapes"))
   end
 
   it("should delete a product") do
@@ -27,4 +27,11 @@ describe (Product) do
     product.destroy
     expect(Product.all).to(eq([product1]))
   end
+
+  describe Product do
+  it("titleizes the name of an product") do
+    product = Product.create({name: "toy car", cost: 1, country_of_origin: "usa"})
+    expect(product.name()).to(eq("Toy Car"))
+  end
+end
 end
