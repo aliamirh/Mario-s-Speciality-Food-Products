@@ -1,10 +1,10 @@
 <div class="reviewer">
-  <p><strong>Reviewer:</strong> <%= @review.author %></p>
-  <p><strong>Product:</strong> <%= @product.name %></p>
+  <p class="show_review"><strong>Reviewer:</strong> <%= @review.author %></p>
+  <p class="show_review"><strong>Product:</strong> <%= @product.name %></p>
 </div>
 <div>
     <p class="review"><%= @review.rating %> stars</p>
-    <p class="review"><%= @review.content_body %></p>
+    <p class="review_body"><span class="bold"><%= @review.author %> said:</span> <%= @review.content_body %></p>
 </div>
 
 

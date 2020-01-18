@@ -35,6 +35,12 @@ ul {
   font-size: 25px;
 }
 
+.review_body{
+  font-size: 25px;
+
+
+}
+
 p {
   text-align: center;
 }
@@ -56,4 +62,12 @@ h1 {
   font-weight: bold;
   font-size: 25px;
   font
+}
+.show_review{
+  font-size: 25px;
+}
+
+.bold{
+  font-weight: bold;
+  
 }
