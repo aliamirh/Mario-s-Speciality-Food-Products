@@ -6,9 +6,9 @@
 
 ## Description
 
-_You can create a list of products, and add reviews to each of them. There are no limits to the amount of products or reviews, only the character minimum and maximum._
+_You can create a list of products, and add reviews to each of them. There are no limits to the amount of products or reviews, only the character minimum and maximum.There is a login functionality added to web page. _
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements_
 
 * _download/clone Mario's Products repo_
 * _Run "bundle install"_
