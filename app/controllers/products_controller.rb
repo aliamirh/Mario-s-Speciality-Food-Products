@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_action :admin_access, only: [:destroy]
+  # before_action :admin_access, only: [:destroy]
   # before_action :authorize, only: [:create]
 
   def index
