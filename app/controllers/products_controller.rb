@@ -1,7 +1,6 @@
 class ProductsController < ApplicationController
   before_action :admin_access, only: [:destroy,:edit,:update,:create,:new]
 
-
   def index
     @products = Product.all
     @usa = Product.made_in_usa
