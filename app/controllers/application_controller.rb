@@ -16,7 +16,10 @@ class ApplicationController < ActionController::Base
   end
 
   def admin_access
-    if !current_user.admin
+    if !current_user
+      flash[:alert] = "Please create an account!"
+      redirect_to '/'
+    elsif current_user.admin === false
       flash[:alert] = "You aren't authorized to visit that page. Admin only!"
       redirect_to '/'
     end

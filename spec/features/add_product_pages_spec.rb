@@ -18,5 +18,8 @@ describe "product page" do
   it "click on sign in" do
     visit('/')
     click_on "Sign in"
+    fill_in "Email", :with => 'test1@test1.com'
+    fill_in "Password", :with => '123'
+    expect(page).to have_content "Sign in"
   end
 end
