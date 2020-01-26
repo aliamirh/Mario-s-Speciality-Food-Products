@@ -70,3 +70,12 @@ h1 {
   font-weight: bold;
 
 }
+
+.boldlink{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 50px;
+  border: 1px solid #5D6063;
+
+}
