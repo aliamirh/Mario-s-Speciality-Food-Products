@@ -6,13 +6,18 @@
 
 ## Description
 
-_You can create a list of products, and add reviews to each of them. There are no limits to the amount of products or reviews, only the character minimum and maximum.There is a login functionality added to web page. _
+_You can create a list of products, and add reviews to each of them. There are no limits to the amount of products or reviews, only the character minimum and maximum. There is a login functionality added to web page. Depending if you select the check box to become an admin, will determine if you can do CRUD functionality on products and reviews page. _
 
 ## Setup/Installation Requirements_
 
 * _download/clone Mario's Products repo_
 * _Run "bundle install"_
+* _Run 'rake db:create'_
+* _Run 'rake db:migrate'_
+* _Run 'rake db:test:prepare'_
+* _Run 'rake db:seed'_
 * _Run "rails s" to start server_
+* _Click sign up and follow log in instructions_
 * _follow website links to create, update, or delete Products and reviews_
 
 
